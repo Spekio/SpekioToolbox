@@ -1,0 +1,10 @@
+E:\Celeste Projects\Kayden-Fox-Celeste-Mods\AdventureHelper\bin\Debug\AdventureHelper.dll
+E:\Celeste Projects\Kayden-Fox-Celeste-Mods\AdventureHelper\bin\Debug\AdventureHelper.pdb
+E:\Celeste Projects\Kayden-Fox-Celeste-Mods\AdventureHelper\obj\Debug\AdventureHelper.csproj.CoreCompileInputs.cache
+E:\Celeste Projects\Kayden-Fox-Celeste-Mods\AdventureHelper\obj\Debug\AdventureHelper.dll
+E:\Celeste Projects\Kayden-Fox-Celeste-Mods\AdventureHelper\obj\Debug\AdventureHelper.pdb
+E:\Celeste Projects\Kayden-Fox-Celeste-Mods\AdventureHelper\obj\Debug\AdventureHelper.csprojAssemblyReference.cache
+E:\Celeste Projects\Spekio's Toolbox\AdventureHelper\obj\Debug\AdventureHelper.csprojAssemblyReference.cache
+E:\Celeste Projects\Spekio's Toolbox\AdventureHelper\obj\Debug\AdventureHelper.csproj.CoreCompileInputs.cache
+E:\Celeste Projects\Spekio's Toolbox\AdventureHelper\obj\Debug\AdventureHelper.dll
+E:\Celeste Projects\Spekio's Toolbox\AdventureHelper\obj\Debug\AdventureHelper.pdb

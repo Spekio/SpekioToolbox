@@ -1,0 +1,96 @@
+# ModName
+mods.SpekioToolbox.name=Spekio's Toolbox
+
+# LinkedDashblock
+entities.SpekioToolbox/LinkedDashBlock.placements.name.LinkedDashBlock=Linked Dash Block
+entities.SpekioToolbox/LinkedDashBlock.attributes.description.linkId=When broken and the dash block is set to permanent, all other Linked\nDash Blocks on the map with a matching ID will also be destroyed.\nSets a flag named SpekioLinkedDashBlock_<Link Id>.
+entities.SpekioToolbox/LinkedDashBlock.attributes.description.canDash=Whether the player can break the block by dashing into it.
+entities.SpekioToolbox/LinkedDashBlock.attributes.description.blendin=Blends the block with the walls it touches, making it less apparent.
+entities.SpekioToolbox/LinkedDashBlock.attributes.description.tiletype=Determines the visual appearance of the wall.
+entities.SpekioToolbox/LinkedDashBlock.attributes.description.permanent=Once broken, the block will remain that way, even if the player dies.
+
+# ToggleTouchSwitch
+entities.SpekioToolbox/ToggleTouchSwitch.placements.name.ToggleTouchSwitch=Toggle Touch Switch
+
+# Cannon
+entities.SpekioToolbox/Cannon.placements.name.Cannon=Cannon
+entities.SpekioToolbox/Cannon.attributes.description.direction=Direction the cannon is facing.
+entities.SpekioToolbox/Cannon.attributes.description.startActivated=If true, the cannon will be active upon entering the room.
+entities.SpekioToolbox/Cannon.attributes.description.timeOffset=The amount of delay before the first shot is fired.
+entities.SpekioToolbox/Cannon.attributes.description.cooldown=The amount of time between each shot. Accepts a comma\ndelimited list of cooldowns to cycle through.
+entities.SpekioToolbox/Cannon.attributes.description.silent=If true the cannon will play no sound when firing.
+entities.SpekioToolbox/Cannon.attributes.description.shotCollision=If true, the shots will be destroyed when they hit a wall or other solid.
+entities.SpekioToolbox/Cannon.attributes.description.cannonStyle=The visual style of the cannon.
+entities.SpekioToolbox/Cannon.attributes.description.toggleFlag=If set, when the flag is activated it will toggle the cannon on or off.\nThe opposite of its starting state.
+entities.SpekioToolbox/Cannon.attributes.description.shotSpeed=The speed multiplier for the shot. (Setting too high may cause issues with collision)
+entities.SpekioToolbox/Cannon.attributes.description.attachToSolid=If the cannon should attach itself to a nearby entity or block.
+entities.SpekioToolbox/Cannon.attributes.description.shotStyle=The visual style of the projectile.
+entities.SpekioToolbox/Cannon.attributes.description.trajectory=The movement type of the projectile.
+entities.SpekioToolbox/Cannon.attributes.description.disableShotParticles=Disables the particles of the fired projectiles.
+entities.SpekioToolbox/Cannon.attributes.description.curveStrength=The strength of the curve in degrees per second.\nOnly affects Curved trajectories.
+entities.SpekioToolbox/Cannon.attributes.description.timeToLive=The amount of time before the shot expires.\nNegative values disable this.
+entities.SpekioToolbox/Cannon.attributes.description.harmlessTimer=The amount of time before the shot becomes deadly and can kill the player.
+
+# LaserTurret
+entities.SpekioToolbox/LaserTurret.placements.name.LaserTurret=Laser Turret
+entities.SpekioToolbox/LaserTurret.attributes.description.startActivated=If true, the turret will be active upon entering the room.
+entities.SpekioToolbox/LaserTurret.attributes.description.timeOffset=The amount of delay before the first shot is fired.
+entities.SpekioToolbox/LaserTurret.attributes.description.chargeTimer=The amount of time the laser takes to charge up and fire.\nMust not be shorter than the Follow Timer.
+entities.SpekioToolbox/LaserTurret.attributes.description.followTimer=The amount of time before the laser stops tracking the target.
+entities.SpekioToolbox/LaserTurret.attributes.description.cooldown=The amount of time between each shot. Accepts a comma\ndelimited list of cooldowns to cycle through.\nNote: Setting this too low can cause sound issues.
+entities.SpekioToolbox/LaserTurret.attributes.description.silent=If true the cannon will play no sound when firing.
+entities.SpekioToolbox/LaserTurret.attributes.description.laserColor=The color of the laser beam.
+entities.SpekioToolbox/LaserTurret.attributes.description.toggleFlag=If set, when the flag is activated it will toggle the turret on or off.\nThe opposite of its starting state.
+entities.SpekioToolbox/LaserTurret.attributes.description.waitForPlayer=When checked, the turret will wait for the player to move after respawning before firing.
+
+#Aiming Cannon
+entities.SpekioToolbox/AimingCannon.placements.name.aimingCannon=Aiming Cannon
+entities.SpekioToolbox/AimingCannon.attributes.description.attachDirection=The direction of a moving object to attach the cannon to.
+entities.SpekioToolbox/AimingCannon.attributes.description.startActivated=If true, the cannon will be active upon entering the room.
+entities.SpekioToolbox/AimingCannon.attributes.description.timeOffset=The amount of delay before the first shot is fired.
+entities.SpekioToolbox/AimingCannon.attributes.description.cooldown=The amount of time between each shot. Accepts a comma\ndelimited list of cooldowns to cycle through.
+entities.SpekioToolbox/AimingCannon.attributes.description.silent=If true the cannon will play no sound when firing.
+entities.SpekioToolbox/AimingCannon.attributes.description.shotCollision=If true, the shots will be destroyed when they hit a wall or other solid.
+entities.SpekioToolbox/AimingCannon.attributes.description.cannonStyle=The visual style of the cannon.
+entities.SpekioToolbox/AimingCannon.attributes.description.toggleFlag=If set, when the flag is activated it will toggle the cannon on or off.\nThe opposite of its starting state.
+entities.SpekioToolbox/AimingCannon.attributes.description.shotSpeed=The speed multiplier for the shot. (Setting too high may cause issues with collision)
+entities.SpekioToolbox/AimingCannon.attributes.description.shotStyle=The visual style of the projectile.
+entities.SpekioToolbox/AimingCannon.attributes.description.trajectory=The movement type of the projectile.
+entities.SpekioToolbox/AimingCannon.attributes.description.moveTargetWithCannon=If the cannon has a targeting node, this determines if the\ntarget should also move with it.
+entities.SpekioToolbox/AimingCannon.attributes.description.disableShotParticles=Disables the particles of the fired projectiles.
+Homing trajectories.\nNegative values will cause the projectile to avoid the target.
+entities.SpekioToolbox/AimingCannon.attributes.description.curveStrength=The strength of the curve in degrees per second.\nOnly affects Curved and Homing trajectories.\nNegative values for homing will cause the projectile to avoid the target.
+entities.SpekioToolbox/AimingCannon.attributes.description.timeToLive=The amount of time before the shot expires.\nNegative values disable this.
+entities.SpekioToolbox/AimingCannon.attributes.description.harmlessTimer=The amount of time before the shot becomes deadly and can kill the player.
+
+
+#Bullet Generator
+entities.SpekioToolbox/BulletGenerator.placements.name.bulletGenerator=Bullet Generator
+entities.SpekioToolbox/BulletGenerator.attributes.description.attachDirection=The direction of a moving object to attach the bullet generator to.
+entities.SpekioToolbox/BulletGenerator.attributes.description.startActivated=If true, the bullet generator will be active upon entering the room.
+entities.SpekioToolbox/BulletGenerator.attributes.description.timeOffset=The amount of delay before the first shot is fired.
+entities.SpekioToolbox/BulletGenerator.attributes.description.cooldown=The amount of time between each shot. Accepts a comma\ndelimited list of cooldowns to cycle through.
+entities.SpekioToolbox/BulletGenerator.attributes.description.silent=If true the bullet generator will play no sound when firing.
+entities.SpekioToolbox/BulletGenerator.attributes.description.shotCollision=If true, the shots will be destroyed when they hit a wall or solid.
+entities.SpekioToolbox/BulletGenerator.attributes.description.toggleFlag=If set, when the flag is activated it will toggle the bullet generator on or off.\nThe opposite of its starting state.
+entities.SpekioToolbox/BulletGenerator.attributes.description.shotSpeed=The speed multiplier for the shot. (Setting too high may cause issues with collision)
+entities.SpekioToolbox/BulletGenerator.attributes.description.shotStyle=The visual style of the projectile.
+entities.SpekioToolbox/BulletGenerator.attributes.description.trajectory=The movement type of the projectile.
+entities.SpekioToolbox/BulletGenerator.attributes.description.moveTargetWithCannon=If the bullet generator has targeting nodes, this determines if the\ntargets should also move with it.
+entities.SpekioToolbox/BulletGenerator.attributes.description.shotSequence=This determines what order the nodes should be fired at.\nSimultaneous: Fires at all nodes simultaneously.\nSequential: Fires at each node in order and returns to the first node when reaching the last node.\nUp and Down: Fires at each node in order and then reverses the order once reaching the last node.\nRandom: Randomly picks nodes to fire at.
+entities.SpekioToolbox/BulletGenerator.attributes.description.showSprite=If the bullet generator should be visible.
+entities.SpekioToolbox/BulletGenerator.attributes.description.cannonStyle=The visual style of the bullet generator.
+entities.SpekioToolbox/BulletGenerator.attributes.description.angleOffset=The offset in degrees clockwise when firing at a target.\nSetting this to anything other than 0 means it will not fire directly at the target.
+entities.SpekioToolbox/BulletGenerator.attributes.description.disableShotParticles=Disables the particles of the fired projectiles.
+entities.SpekioToolbox/BulletGenerator.attributes.description.curveStrength=The strength of the curve in degrees per second.\nOnly affects Curved and Homing trajectories.\nNegative values for homing will cause the projectile to avoid the target.
+entities.SpekioToolbox/BulletGenerator.attributes.description.timeToLive=The amount of time before the shot expires.\nNegative values disable this.
+entities.SpekioToolbox/BulletGenerator.attributes.description.harmlessTimer=The amount of time before the shot becomes deadly and can kill the player.
+entities.SpekioToolbox/BulletGenerator.attributes.description.depth=The rendering depth of the Bullet Generator.\nRecommended: 2000 when on background tiles and -13000 when on top of foreground tiles.\nNote: If attached to something it will take the attached entities depth.
+
+
+# ProjectileBlockField
+entities.SpekioToolbox/ProjectileBlockField.attributes.description.activeFlag=If set, the block field will only be active when the flag is true.
+entities.SpekioToolbox/ProjectileBlockField.attributes.description.instantRemoval=Projectiles will be instantly removed instead of playing their ending animation.
+entities.SpekioToolbox/ProjectileBlockField.attributes.description.directionalBlocking=Will only block projectiles that are traveling at angle between the start and end angles.\nUp is 0 and increases clockwise to 359.\nThe range can cross over 0 by making the end angle lower than the start angle.
+entities.SpekioToolbox/ProjectileBlockField.attributes.description.blockAngleStart=The minimum angle to block.
+entities.SpekioToolbox/ProjectileBlockField.attributes.description.blockAngleEnd=The maximum angle to block.
